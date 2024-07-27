@@ -1,0 +1,56 @@
+import { Container } from "../component/container.jsx";
+
+## It clutters up the UI
+
+<Container>
+If you work on a design system you have the beautiful opportunity of being able to see how your users use and misuse your tool everyday!
+
+Use that.
+
+## Stalk 👏 those 👏 pull 👏 requests 👏
+
+Get nosy 👃🏼 and all up in that codebase.
+
+But don’t stalk to police 🚓 or shame those who use the design system incorrectly.
+
+Instead approach it with **curiosity**.
+
+_That’s your unfiltered feedback right there!_
+
+Get excited when you see someone misuse your product 😁. There is an opportunity to learn here. It gets especially juicy 🧃 when you see a recurring pattern of misuse. Why do a lot of engineers hack our modal component or build their own? Maybe the component’s API is not flexible enough. Why are they using our global tokens and not our alias tokens? Do we even want our global tokens exposed to users? Is there an education piece missing around tokens?
+
+## "They'll let us know when they struggle"
+
+They won't. Or very few will. This could be for a number of reasons:
+
+- The process to contribute to the design system appears an arduous, political or highly gate kept process.
+- They have little capacity or incentive to get involved in design system work since their performance is measured on reaching their team's sprint goal.
+- They don't even see their misuse as an issue or struggle unless they are blocked by it i.e. they are unable to hack around it to achieve what they need or find it's too difficult to build their own version of the component.
+
+## Your users are engineers not design system engineers
+
+I've seen a lot of effort (and faith 🤲🏼) put into design system feedback surveys only to get back maybe a handful of responses. I've seen lots of time and energy wasted on hosting workshops to gather ideas from engineers, product managers and designers on how to improve the design system. It’s like asking customers to design their own car, **they are not the experts and it’s not their responsibility**. Their PRs already give you plenty of quantitative and qualitative insight into the areas that need your attention.
+
+## "It's in the documentation though"
+
+If you spot your users are asking a lot of questions or making a lot of mistakes that could have been avoided by using the documentation, then...
+
+### Your documentation might be shit 💩
+
+Yes, documentation needs content designing too. Just because the information is there, doesn't mean it's been presented in a way that's easily digestible, clear and in the format needed for your users. There is also such a thing as too much documentation. Reduce the content and focus on quality! What is actually used and needed here?
+
+### Your components' APIs and token naming might be shit 💩
+
+Remember, good design is first intuitive then discoverable. Meaning, you want to name and design your components' APIs and tokens as intuitively as possible so your engineers rarely even need to leave their IDEs to refer to the documentation. Don't band aid bad component API design with redirection to the documentation (or even more documentation!), prioritise the API.
+
+Some best practices on component API design include:
+
+- Leveraging existing and familiar APIs such as HTML attributes and React's children prop.
+- Sharing APIs across common components to reduce the cognitive load for the user.
+- Building complex components in a composable way so lower level components can be easily accessed as opposed to monolithic components which abstract everything into a list of props!
+
+## Designers make mistakes too
+
+If you're an engineer who finds themselves needing to build a slightly different version of a design system component or needing to use a custom value instead of a token to match the designs you were given... push back on the designer. Question them. Why does the design system version of this component not cut it here? Why can't we use the 12px spacing token here instead of a custom 10px here? There might be a good reason for it, there might not be.
+
+</Container>

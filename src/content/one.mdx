@@ -1,0 +1,47 @@
+import { Container } from "../component/container.jsx";
+import Banner from "../assets/tes-1.jpg";
+import { codeToHtml } from 'shiki'
+
+export const meta = {
+  title: "Good Commit ✅ VS. Bad Commit ❌: Best Practices for Git",
+  banner: Banner,
+  publishedAt: "2023-01-05",
+  description:
+    "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects. But, being its working Git only proves effective if the commits are managed properly. In this article, we will go through those good and bad commits explaining you the best practices to have a clear informative helpful commit history.",
+  tags: "nextjs,github,typescript,firebase",
+};
+
+export default ({ children }) => <Container meta={meta}>{children}</Container>;
+
+## What is a commit?
+In Git, a commit is referring to the state of your code at one specific point in time. Commits with the metadata (author, timestamp, commit message etc). Commits are used for saving progression, stating changes and merging developed pieces with others work.
+
+## Characteristics of a Good Commit
+**Atomic and focused**: A commit should be atomic - it has to represent one and only one logical change. Do not mix several independent changes in one commit.
+Example:
+
+```js
+# Good commit
+git commit -m "Add user authentication"
+# Bad commit
+git commit -m "Add user authentication and update UI styles"
+
+```
+
+**Descriptive Commit** Message: A descriptive commit message clearly explains what the commit does and why the change was made. It should provide enough context for others (and your future self) to understand the change without reading the code.
+Example:
+
+```js
+# Good commit message
+git commit -m "Fix Correct null pointer exception in user login"
+# Bad commit message
+git commit -m "Fix bug"
+```
+
+**Follow Conventional** Commit Guidelines: You can use the standard commit guidelines to keep your git history clean, consistent and easy to read. Usually these guidelines interpret in the form of type (feat, fix, chore, refactor docs), and short summary plus occasionally a long explanation or REF to other relative issues.
+Example:
+```js
+# Good commit message following conventional guidelines
+git commit -m "feat(auth): add JWT-based authentication"
+git commit -m "fix(login): resolve race condition in login flow"
+```
