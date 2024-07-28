@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { MDXProvider } from "@mdx-js/react";
 import Template from "./template";
 
-//versi rapi nengok ccrsxx aja atau punya bawaaann boleh juga
 export const Container = ({ children, meta }) => {
   const tags = meta.tags.split(",").map((tag, index) => (
     <p key={index} className="text-sm text-black p-2 bg-yellow-100 rounded-md  inline-block">
