@@ -28,11 +28,27 @@ export default function MainNav() {
               </a>
             ))}
           </div>
-          <div className="flex lg:flex-1 items-center gap-2 justify-center">
-            <a href="#" className="m-2 p-2">
-              <img alt="" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" className="h-8 w-auto" />
+          <div className="flex lg:flex-1 items-center  justify-center">
+            <a href="#" >
+              <svg width="40" height="30" viewBox="0 0 123 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clipPath="url(#clip0_1954_2)">
+                  <path
+                    d="M48.6056 87.9449H4.3205C1.93435 87.9449 0 86.0105 0 83.6244V4.32916C0 0.347559 4.92874 -1.51462 7.56158 1.47224L51.8467 51.7118C52.5423 52.501 52.9261 53.5168 52.9261 54.5687V83.6244C52.9261 86.0105 50.9917 87.9449 48.6056 87.9449Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M64.8068 87.9449H109.092C111.478 87.9449 113.413 86.0105 113.413 83.6244V4.32916C113.413 0.347559 108.484 -1.51462 105.851 1.47224L61.5657 51.7118C60.8701 52.501 60.4863 53.5168 60.4863 54.5687V83.6244C60.4863 86.0105 62.4207 87.9449 64.8068 87.9449Z"
+                    fill="black"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1954_2">
+                    <rect width="123" height="90" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
             </a>
-            <p className=" text-black">El Company</p>
+            <p className=" text-black">Motto</p>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">

@@ -1,114 +1,113 @@
-//contohin ini : https://github.com/alizehkhan/portfolio/blob/main/src/content/posts.ts
-//masukin title, date ...
+
 export const items = [
   {
-    css: "url(https://images.unsplash.com/photo-1487266659293-c4762f375955?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
+    css: "url(https://images.unsplash.com/photo-1557264337-e8a93017fe92?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
     height: 150,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "github",
+    title: "Good Commit VS. Bad Commit",
     url: "/first",
   },
   {
-    css: "url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
+    css: "url(https://images.unsplash.com/photo-1553949357-e164b5711492?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
     height: 300,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "front-end",
+    title: "Free & open-source landing page templates",
 
     url: "/second",
   },
   {
-    css: "url(https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
+    css: "url(https://images.unsplash.com/photo-1553949285-bdcb31ec5cba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
     height: 300,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "programming",
+    title: "Building a Real-Time Video Chat App with WebRTC, Socket.io, Node.js, and React",
 
     url: "/content/1",
   },
   {
-    css: "url(https://images.pexels.com/photos/358574/pexels-photo-358574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
+    css: "url(https://images.unsplash.com/photo-1553949345-eb786bb3f7ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
     height: 300,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "Rest API",
+    title: "Mastering REST API: An In-Depth Guide to Building and Utilizing RESTful Web Services",
 
     url: "/content/1",
   },
   {
-    css: "url(https://images.pexels.com/photos/1738986/pexels-photo-1738986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
+    css: "url(https://images.unsplash.com/photo-1554668036-b85c20687cad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
     height: 300,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "reactjs",
+    title: "React 19: A Game-Changer for Modern Web Development",
 
     url: "/content/1",
   },
   {
-    css: "url(https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
+    css: "url(https://images.unsplash.com/photo-1557264322-b44d383a2906?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
     height: 300,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "API",
+    title: "How to Use the React Context API in Your Projects",
 
     url: "/content/1",
   },
   {
-    css: "url(https://images.pexels.com/photos/1005644/pexels-photo-1005644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
+    css: "url(https://images.unsplash.com/photo-1591393223703-56fe1347ac62?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
     height: 200,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "extension",
+    title: "Creating a Chrome extension",
 
     url: "/content/1",
   },
   {
     css: "url(https://images.pexels.com/photos/227675/pexels-photo-227675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
     height: 300,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "programming",
+    title: "10 Projects to master Frontend & Web Development",
 
     url: "/content/1",
   },
   {
     css: "url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
     height: 200,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "css",
+    title: "20 Super Useful CSS Animation Libraries",
 
     url: "/content/1",
   },
   {
     css: "url(https://images.pexels.com/photos/327482/pexels-photo-327482.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
     height: 400,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "javascript",
+    title: "Better ways to use async functions in Javascript",
 
     url: "/content/1",
   },
   {
     css: "url(https://images.pexels.com/photos/911758/pexels-photo-911758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
     height: 200,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "javascript",
+    title: "12 Essential JavaScript Websites Every Web Developer Should Be Familiar With",
 
     url: "/content/1",
   },
   {
     css: "url(https://images.pexels.com/photos/249074/pexels-photo-249074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
     height: 150,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "front-end",
+    title: "50 Best Websites for Web Design Inspiration and Ideas",
 
     url: "/content/1",
   },
   {
     css: "url(https://images.pexels.com/photos/310452/pexels-photo-310452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
     height: 400,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "programming",
+    title: "Mastering REST API: An In-Depth Guide to Building and Utilizing RESTful Web Services",
 
     url: "/content/1",
   },
   {
-    css: "url(https://images.pexels.com/photos/380337/pexels-photo-380337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)",
+    css: "url(https://images.unsplash.com/photo-1561214115-f2f134cc4912?q=80&w=1909&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
     height: 200,
-    title: "content One",
-    desc: "How I built a Twitter clone using Next.js, TypeScript, and FirebaseOne of the most used version control systems is Git that helps developers in following changes, going back to previous states effectively and working as a team on your projects.",
+    tag: "github",
+    title: "Mastering REST API: An In-Depth Guide to Building and Utilizing RESTful Web Services",
 
     url: "/content/1",
   },
